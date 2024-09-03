@@ -41,5 +41,5 @@
   nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [ "prl-tools" ];
 
   # Set your system kind (needed for flakes)
-  nixpkgs.hostPlatform = lib.mkDefault "aarch64-linux";
+  nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
 }
