@@ -36,8 +36,6 @@
   # networking.interfaces.enp4s0f1.useDHCP = lib.mkDefault true;
   # networking.interfaces.wlp3s0.useDHCP = lib.mkDefault true;
 
-  
-  hardware.parallels.enable = true;
   nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [ "prl-tools" ];
 
   # Set your system kind (needed for flakes)
