@@ -166,7 +166,7 @@
     nvidiaPatches = true;
     xwayland = {
       enable = true;
-    }
+    };
   };
 
   environment.sessionVariables = {
@@ -182,7 +182,7 @@
 
     # Most wayland compositors need this
     nvidia.modesetting.enable = true;
-  }
+  };
 
   services.openssh = {
     enable = true;
