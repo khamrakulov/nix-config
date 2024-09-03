@@ -131,7 +131,6 @@
       vscode
       nodejs
       jetbrains-toolbox
-      libre-
     ];
   };
 
